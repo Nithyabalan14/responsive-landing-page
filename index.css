@@ -30,9 +30,15 @@
   color: #fff;
   text-decoration: none;
 }
-a:hover{
-  text-decoration:underline;
+.navbar ul li a:hover{
+ background-color: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
+
 
 .hero-content {
   text-align: center;
@@ -178,5 +184,6 @@ footer {
 .contact-form button:hover {
   background: #3730a3;
 }
+
 
 
